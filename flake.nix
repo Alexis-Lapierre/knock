@@ -3,10 +3,10 @@
     
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
 
-    libgourou-utils.url = "github:BentonEdmondson/libgourou-utils";
+    libgourou-utils.url = "github:esn/libgourou-utils";
     libgourou-utils.inputs.nixpkgs.follows = "nixpkgs";
 
-    inept-epub.url = "github:BentonEdmondson/inept-epub";
+    inept-epub.url = "github:esn/inept-epub";
     inept-epub.inputs.nixpkgs.follows = "nixpkgs";
   };
 
